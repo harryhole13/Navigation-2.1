@@ -39,6 +39,7 @@ final class ProfileViewController: UIViewController {
                 equalTo: self.view.trailingAnchor),
             self.profileView.bottomAnchor.constraint(
                 equalTo: self.view.safeAreaLayoutGuide.bottomAnchor)
+            
         ])
     }
     
